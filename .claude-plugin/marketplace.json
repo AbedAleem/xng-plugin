@@ -1,0 +1,14 @@
+{
+  "name": "xng",
+  "description": "XNG plugins for Claude Code",
+  "owner": {
+    "name": "Abed Hassouna"
+  },
+  "plugins": [
+    {
+      "name": "xng-test",
+      "source": "./plugins/xng-test",
+      "description": "Task implementation with code and accessibility review, plus repo test standards"
+    }
+  ]
+}

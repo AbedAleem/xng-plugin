@@ -1,0 +1,17 @@
+{
+  "description": "Tell the user when this repo's xng-test standards are older than the installed plugin's",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/check-standards.js"]
+          }
+        ]
+      }
+    ]
+  }
+}
