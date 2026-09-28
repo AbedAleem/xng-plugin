@@ -1,6 +1,6 @@
 {
   "name": "xng-test",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Task implementation with code and accessibility review, plus repo test standards",
   "author": {
     "name": "Abed Hassouna"

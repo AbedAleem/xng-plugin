@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "files": [
+    { "template": "templates/CLAUDE.md", "target": ".claude/CLAUDE.md" }
+  ]
+}

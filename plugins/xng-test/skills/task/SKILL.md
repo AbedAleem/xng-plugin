@@ -13,7 +13,7 @@ Task: $ARGUMENTS
 - If no task was given, ask the user for it and stop.
 - If the task is a Jira key and Jira tools are available, read the issue. If its attachments or linked designs can't be read, ask the user for them. Never invent requirements to fill a gap.
 - If a requirement is ambiguous, ask before writing code.
-- If `.claude/CLAUDE.md` in the project has no `xng-test-standards` marker, mention that the user can run `/xng-test:init-standards` to add the repo standards.
+- If the project has no `.claude/xng-test.json` stamp, mention that the user can run `/xng-test:init-standards` to add the repo standards.
 
 ## 2. Implement
 
